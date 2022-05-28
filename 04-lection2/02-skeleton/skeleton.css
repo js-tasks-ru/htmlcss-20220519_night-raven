@@ -1,0 +1,32 @@
+.skeleton {
+    padding: 24px 40px 32px 24px; 
+}
+.skeleton__header {
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.sceleton__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+    margin-right: 16px;
+}
+.skeleton__title {
+    width: 172px;
+    height: 20px;
+    background-color: var(--grey-2);
+    margin-bottom: 8px;
+}
+.skeleton__subtitle {
+    width: 257px;
+    height: 20px;
+    background-color: var(--grey-2);
+}
+.skeleton__row {
+    max-width: 515px;
+    height: 20px;
+    background-color: var(--grey-2);
+    margin-bottom: 8px;
+}
