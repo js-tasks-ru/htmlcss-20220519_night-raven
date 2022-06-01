@@ -1,0 +1,30 @@
+.page {
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: auto 1fr auto;
+}
+.page__header {
+    min-height: 82px;
+    background-color: #FFFFFF;
+}
+.page__main {
+    background-color: #F9FAFC;;
+}
+.menu {
+}
+.component {
+}
+.page__footer {
+    display: grid;
+    justify-content: center;
+    padding: 92px 0px 56px;
+}
+.footer__title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ACB5BD;
+}
