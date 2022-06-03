@@ -4,10 +4,12 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
 }
 .skeleton__header {
     display: flex;
-    margin-bottom: 24px;
     align-items: center;
 }
 .sceleton__avatar {
@@ -23,8 +25,11 @@
     background-color: var(--grey-2);
     margin-bottom: 8px;
 }
+.skeleton__line:last-child {
+    margin-bottom: 0px;
+}
 .skeleton__line_title {
-    width: 172px;
+    width: 66.93%;
     margin-bottom: 8px;
 }
 .skeleton__line_subtitle {
