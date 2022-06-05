@@ -1,5 +1,5 @@
 .header {
-    padding: 96px 0 77px;
+    padding: 25px 0 77px;
     font-family: 'Inter';
     font-style: normal;
 }
@@ -8,4 +8,13 @@
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
+}
+.logo {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.logo__item:not(:last-child){
+    margin-right: 8px;
 }
