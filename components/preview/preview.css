@@ -1,0 +1,9 @@
+.preview {
+    background: hsl(220, 33%, 98%);
+    padding: 62px 165px 204px 165px;
+}
+.preview__body {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
