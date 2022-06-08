@@ -9,8 +9,9 @@
     gap:24px;
 }
 .skeleton__header {
-    display: flex;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 64px auto;
+  grid-column-gap: 16px;
 }
 .sceleton__avatar {
     width: 64px;
@@ -19,19 +20,24 @@
     background-color: var(--grey-2);
     margin-right: 16px;
 }
+.skeleton__lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skeleton__body {
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
 .skeleton__line {
-    max-width: 517px;
     height: 20px;
     background-color: var(--grey-2);
-    margin-bottom: 8px;
-}
-.skeleton__line:last-child {
-    margin-bottom: 0px;
 }
 .skeleton__line_title {
-    width: 66.93%;
     margin-bottom: 8px;
+    width: 39.72%
 }
 .skeleton__line_subtitle {
-    width: 257px;
+    width: 59.35%;
 }
