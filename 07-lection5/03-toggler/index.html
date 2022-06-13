@@ -4,8 +4,34 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
+        <style>
+            form {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+        </style>
     </head>
     <body>
-
+        <form action="" class="form">
+            <label class="toggler">
+                <input type="checkbox" class="toggler__input">
+                <div class="toggler__state">
+                    <div class="toggler__control">
+                        <div class="toggler__inner"></div>
+                    </div>
+                    <div class="toggler__title">Default</div>
+                </div>
+            </label>
+            <label  class="toggler">
+                <input type="checkbox" disabled class="toggler__input">
+                <div class="toggler__state">
+                    <div class="toggler__control">
+                        <div class="toggler__inner"></div>
+                    </div>
+                    <div class="toggler__title">Disabled</div>
+                </div>
+            </label>
+        </form> 
     </body>
 </html>
