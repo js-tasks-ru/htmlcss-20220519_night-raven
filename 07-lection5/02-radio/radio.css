@@ -1,6 +1,6 @@
 .radio__input {
     position: absolute;
-    opacity: 0;
+    clip: rect(0,0,0,0);
 }
 .radio__input:checked ~ .radio__state .radio__selected {
     background-color: var(--blue-1);
