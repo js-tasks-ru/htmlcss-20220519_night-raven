@@ -1,6 +1,3 @@
-.form {
-    padding: 10px;
-}
 .input {
     display: inline-flex;
     flex-direction: column;
@@ -30,13 +27,13 @@
     color: var(--grey-4);
     border: 1px solid var(--blue-1);
 }
-.input_success .input__field {
+.input_success {
     background-image: url('./icons/success_icon.svg');
     background-repeat: no-repeat;
     background-position: right 5% center;
     color: var(--grey-4);
 }
-.input-error .input__field {
+.input-error {
     background-image: url('./icons/error_icon.svg');
     background-repeat: no-repeat;
     background-position: right 5% center;
