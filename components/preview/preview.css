@@ -1,6 +1,6 @@
 .preview {
     background: hsl(220, 33%, 98%);
-    padding: 62px 165px 204px 165px;
+    padding: 62px 0px 204px;
 }
 .preview__body {
     display: flex;
