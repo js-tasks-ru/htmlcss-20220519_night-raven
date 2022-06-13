@@ -1,0 +1,41 @@
+.input {
+    display: inline-flex;
+    flex-direction: column;
+    gap:5px;
+}
+.input__title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color:var(--grey-3);
+}
+.input__field {
+    max-width: 350px;
+    padding: 17px 24px 13px;
+    background: #FFFFFF;
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-2);
+}
+.input__field:focus {
+    color: var(--grey-4);
+    border: 1px solid var(--blue-1);
+}
+.input_success {
+    background-image: url('./icons/success_icon.svg');
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    color: var(--grey-4);
+}
+.input-error {
+    background-image: url('./icons/error_icon.svg');
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    color: var(--grey-4);
+}
