@@ -1,11 +1,6 @@
-form {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 .toggler__input {
     position: absolute;
-    opacity: 0;
+    clip: rect(0,0,0,0);
 }
 .toggler__state {
     cursor: pointer;
